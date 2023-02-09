@@ -15,7 +15,7 @@ function Add_numbers_1() {
     document.write(20 + X + "<br>");
 }
 function Add_numbers_2() {
-    document.write(X + 100);    
+    document.write(y + 100);   //it is a broken code because y is an undefined value.  
 }
 Add_numbers_1();
 Add_numbers_2();
